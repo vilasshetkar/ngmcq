@@ -1,0 +1,206 @@
+[
+    {
+      "question": "What does EC2 stand for in AWS?",
+      "options": ["Elastic Compute Cloud", "Elastic Container Service", "Elastic Cache 2", "Elastic Container Cloud"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which of the following is not a valid EC2 instance type?",
+      "options": ["t2.micro", "m5.large", "c4.xlarge", "r5.nano"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is an Amazon Machine Image (AMI) in the context of EC2?",
+      "options": ["A snapshot of a running EC2 instance", "A type of EC2 instance", "An EBS volume", "A virtual machine running on EC2"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which service allows you to manage and configure EC2 instances at scale?",
+      "options": ["AWS Elastic Beanstalk", "AWS CloudFormation", "AWS OpsWorks", "AWS Lambda"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the maximum number of Elastic IP addresses you can allocate per AWS account by default?",
+      "options": ["5", "10", "20", "50"],
+      "correctAnswer": 1,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which instance type is optimized for high-performance computing (HPC) workloads?",
+      "options": ["t2.micro", "c5.large", "m4.xlarge", "g4dn.xlarge"],
+      "correctAnswer": 3,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the purpose of Amazon EBS (Elastic Block Store)?",
+      "options": ["It provides block-level storage for EC2 instances.", "It offers long-term archival storage.", "It provides scalable object storage.", "It manages containers on EC2 instances."],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which feature allows you to stop and start an EC2 instance at specified times?",
+      "options": ["Auto Scaling", "Elastic Load Balancing", "Instance Scheduler", "AWS Lambda"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the purpose of an EC2 security group?",
+      "options": ["To define rules for inbound and outbound traffic to EC2 instances", "To monitor the performance of EC2 instances", "To store EC2 instance backups", "To manage IAM policies for EC2 instances"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which Amazon storage service is used to attach additional storage volumes to EC2 instances?",
+      "options": ["Amazon S3", "Amazon RDS", "Amazon EBS", "Amazon DynamoDB"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which feature allows you to run code on AWS infrastructure without provisioning or managing servers?",
+      "options": ["AWS Elastic Beanstalk", "Amazon RDS", "AWS Lambda", "Amazon EC2"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the default action when an EC2 instance is terminated?",
+      "options": ["It is immediately deleted without further action.", "It is stopped and can be restarted later.", "It is automatically replaced with a new instance.", "It goes into a suspended state."],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which AWS service provides automated scaling for your applications?",
+      "options": ["Amazon EC2", "AWS Elastic Beanstalk", "AWS Lambda", "Amazon RDS"],
+      "correctAnswer": 1,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the maximum number of Elastic IP addresses you can allocate to an EC2 instance by default?",
+      "options": ["1", "2", "5", "10"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the primary function of an EC2 instance role?",
+      "options": ["To specify the instance type", "To allow or deny access to EC2 instances", "To define the instance's region", "To grant permissions to AWS services to access resources on your behalf"],
+      "correctAnswer": 3,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the purpose of Amazon EC2 Auto Scaling?",
+      "options": ["To automatically launch new instances based on demand", "To resize your EBS volumes", "To automatically create AMIs", "To schedule instance restarts"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which instance type is designed for memory-intensive applications?",
+      "options": ["m4.xlarge", "c5.large", "r5.large", "t2.micro"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is an EC2 instance profile?",
+      "options": ["A user account for accessing the AWS Management Console", "A configuration file for launching EC2 instances", "A metadata service for EC2 instances", "A collection of EC2 instances"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which of the following is a valid EC2 billing option?",
+      "options": ["Pay-per-click", "Pay-per-hour", "Pay-per-use", "Pay-per-instance"],
+      "correctAnswer": 1,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is an EC2 placement group?",
+      "options": ["A group of EC2 instances that share the same IP address", "A group of EC2 instances within a single Availability Zone", "A group of EC2 instances for load balancing purposes", "A group of EC2 instances that are colocated on a single physical host"],
+      "correctAnswer": 3,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the purpose of an EC2 key pair?",
+      "options": ["To identify a specific EC2 instance", "To encrypt EBS volumes", "To allow SSH access to EC2 instances", "To manage IAM users"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which Amazon storage service is used to store and retrieve objects?",
+      "options": ["Amazon S3", "Amazon EBS", "Amazon RDS", "Amazon DynamoDB"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the maximum number of Elastic IP addresses you can allocate to an AWS account?",
+      "options": ["5", "10", "20", "50"],
+      "correctAnswer": 3,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which AWS service can automatically distribute incoming application traffic across multiple EC2 instances?",
+      "options": ["Amazon Route 53", "Amazon S3", "AWS Elastic Beanstalk", "Amazon RDS"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the primary role of an EC2 instance profile?",
+      "options": ["To specify the instance type", "To define security group rules", "To grant permissions to AWS services", "To configure instance storage"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which type of storage is provided by EC2 instance store volumes?",
+      "options": ["Persistent storage", "Ephemeral storage", "Shared storage", "Network-attached storage"],
+      "correctAnswer": 1,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the maximum number of EC2 instances you can run in a single Amazon VPC by default?",
+      "options": ["50", "100", "500", "1000"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the purpose of an EC2 security group?",
+      "options": ["To specify the instance type", "To define security group rules", "To grant permissions to AWS services", "To configure instance storage"],
+      "correctAnswer": 1,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the default action when an EC2 instance is stopped?",
+      "options": ["It is immediately terminated.", "It is paused and can be resumed later.", "It is stopped but remains in a running state.", "It is paused and cannot be resumed."],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which AWS service can be used to configure and manage EC2 instances with Puppet or Chef?",
+      "options": ["AWS Lambda", "Amazon Route 53", "AWS Elastic Beanstalk", "AWS OpsWorks"],
+      "correctAnswer": 3,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which instance type provides the lowest cost per CPU performance?",
+      "options": ["t2.micro", "m5.large", "c4.xlarge", "r5.nano"],
+      "correctAnswer": 0,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the maximum number of virtual private clouds (VPCs) allowed per AWS account?",
+      "options": ["1", "5", "10", "20"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "What is the purpose of EC2 instance metadata?",
+      "options": ["To store instance logs", "To configure IAM roles", "To retrieve instance information", "To manage security groups"],
+      "correctAnswer": 2,
+      "topic": "AWS EC2"
+    },
+    {
+      "question": "Which of the following is not a valid EC2 instance type?",
+      "options": ["t2.micro", "c5.large", "m4.xlarge", "x1.32xlarge"],
+      "correctAnswer": 3,
+      "topic": "AWS EC2"
+    }
+  ]
